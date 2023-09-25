@@ -1,0 +1,189 @@
+@import url('https://fonts.google.com/specimen/Delicious+Handrawn');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Delicious+Handrawn;
+}
+ 
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background: url(./images/purplebg.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: black;
+}
+.main-header {
+    background-color: rgba(0, 0, 0, -6);
+    background-image: url("./images/triangles-1430105__340.webp");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.container {
+    background-color: white;
+    color: rgb(19, 28, 37); 
+    border:10px double red;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    outline: 5px solid purple;
+    outline-offset: -20px;
+    overflow: auto;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+p {
+    background-color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: cursive;
+}
+
+.nav a {
+    display: inline-block;
+    cursor: pointer;
+    padding: .5em;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    display: inline;
+    text-align: center;
+}
+    
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid 
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.container-section {
+    margin: 1em;
+}
+
+.container-section p {
+    text-indent: 20%;
+}
+.content-section ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.content-section li {
+    padding: 0 .5em;;
+}
+
+.work-files {
+    margin: 30px;
+}
+
+.work-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: bold;
+    margin-bottom: 15px;
+    color: aliceblue;
+}
+
+.work-title-image {
+    width: 250px;
+}
+
+.work-title-image2 {
+    width: 250px;
+    height: 130px;
+    margin: 10px;
+}
+
+.work-files {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.books {
+    padding: 0 .5em;
+}
+
+.div a {
+    text-indent: 30%;
+}
+
+.div a li {
+    padding: 0;
+    flex-grow: 1;
+    text-align: end;
+}
+
+.div a img {
+    width: 120px;
+    height: 120px;
+}
+.div shop-books {
+    float: inline-end;
+}
+
+.about-me-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 20%;
+}
+
+.about-footer {
+    padding: .25em 0;
+}
+
+.about-footer-container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.about-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 70px;
+    height: 70px;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+.btn-1 { background-color: green; }
